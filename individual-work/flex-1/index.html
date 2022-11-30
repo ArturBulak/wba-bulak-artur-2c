@@ -11,7 +11,7 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            margin: 0;
+            margin: 0;  
             
         }
         header {
@@ -22,14 +22,12 @@
             height: 150px;
             padding-left: 30px;
             padding-right: 30px;
-
         }
         .containers {
             display: flex;
             flex-direction: row;
             margin-left: 50px;
             margin-right: 50px;
-
         }
         .logoskola {
             display: flex;
@@ -38,6 +36,7 @@
         .logohledat {
             display: flex;
             height: 25px;
+
         }
         .linky {
             padding: 15px;
@@ -72,11 +71,24 @@
             color: white;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
         }
+        .article{
+            margin-top: 50px;
+            display: flex;
+            background-color: white;
+            width: 100%;
+            height: auto;
+        }
+
+        .div1{
+            background-color: aqua;
+        }
+
     </style>
     <title>flexbox ukol</title>
 </head>
 
 <body>
+
     <header>
         <div><img class="logoskola" src=obrazky/logo.png alt="logoskola"></div>
         <div class="containers">
@@ -88,15 +100,39 @@
         </div>
         <div><img class="logohledat" src=obrazky/search.png alt="logohledat"></div>
     </header>
+
     <div class="boxlogo">
         <h1>Lorem Ipsum</h1>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
         Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est.
         Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
         per inceptos hymenaeos. Nullam justo enim, consectetuer nec, ullamcorper ac,
-         vestibulum in, elit. Aliquam ornare wisi eu metus. Aliquam erat volutpat. 
-         Morbi scelerisque luctus velit. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, 
+        vestibulum in, elit. Aliquam ornare wisi eu metus. Aliquam erat volutpat. 
+        Morbi scelerisque luctus velit. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, 
         justo. Etiam commodo dui eget wisi. Duis pulvinar. Quisque porta. Etiam commodo dui eget wisi.</p>
+    </div>
+
+    <div class="article">
+        <div class="article-okolo">
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam feugiat, turpis at pulvinar vulputate, erat libero
+                tristique tellus, nec bibendum odio risus sit amet ante. Cras pede libero, dapibus nec, pretium sit amet, tempor quis.
+                Nam sed tellus id magna elementum tincidunt. Suspendisse nisl. Aenean fermentum risus id tortor. Integer vulputate sem  
+                a nibh rutrum consequat. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus
+                </p>
+            </div>
+            <div>
+                <p>faucibus mi quis velit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer rutrum, 
+                orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Ut tempus purus at lorem.
+                Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus.</p> 
+            </div>
+            <div>
+                <p>Curabitur vitae diam non enim vestibulum interdum. Ut tempus purus at lorem. Mauris suscipit, ligula sit amet pharetra semper,
+                nibh ante cursus purus, vel sagittis velit mauris vel metus. Integer pellentesque quam vel velit. Vivamus ac leo pretium faucibus. 
+                Nunc tincidunt ante vitae massa. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. 
+                Nullam rhoncus aliquam metus. Quisque porta. Phasellus faucibus molestie nisl.</p>
+            </div>
+        </div>
     </div>
 </body>
 
