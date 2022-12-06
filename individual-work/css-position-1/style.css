@@ -6,15 +6,22 @@ Světlá barva pozadí: #f2b880
 Tmavší barvy pozadí za obrázkem: #e88121
 Barva text v oranžovém pozadí: #752400
 */
+.header-pos {
+  position: fixed;
+  background-color: white;
+}
 .header {
   display: flex;
   flex-direction: row;
-  padding-top: 5px;
+  background-color: white;
 }
 .header-logo{
   display: flex;
   align-items: flex-end;
   width: 25%;
+  position: fixed;
+  right: 75%;
+  background-color: white;
 }
 .header-logo img {
   height: 75px;
@@ -22,6 +29,10 @@ Barva text v oranžovém pozadí: #752400
 }
 .empty-space {
   width: 50%;
+  background-color: white;
+  margin-left: 25%;
+  height: 75px;
+  position: fixed;
 }
 .navbar {
   display: flex;
@@ -36,17 +47,20 @@ Barva text v oranžovém pozadí: #752400
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 75px;
   width: 25%;
   margin-right: 11%;
+  position: fixed;
+  left: 66%;
+  background-color: white;
 }
 .headline-1 {
   display: flex;
-  height: 80px;
+  height: 160px;
   justify-content: center;
-  align-items: center;
 }
 h1 {
-  padding-top: 20px;
+  padding-top: 100px;
   font-size: 30px;
   padding-bottom: 35px;
 }
@@ -54,22 +68,27 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
+
+.hero-section {
+  height: 100%;
+}
+
 .hero-square {
   display: flex;
   align-items: center;
   width: 75%;
-  height: 50%;
-  height: 400px;
+  height: 45vh;
   background-color: #f2b880;
   border-radius: 20px;
+
 }
 .hero-img {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50%;
+  max-width: 900px;
 }
 .hero-img img {
   width: 80%;
@@ -86,8 +105,15 @@ h1 {
 .text-wrapper {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 25%;
   justify-content: space-evenly;
   margin: auto;
   margin-top: 75px;
+}
+.top-link img{
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
