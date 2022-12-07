@@ -78,7 +78,7 @@ h1 {
   display: flex;
   align-items: center;
   width: 75%;
-  height: 45vh;
+  height: 55vh;
   background-color: #f2b880;
   border-radius: 20px;
 
@@ -101,6 +101,8 @@ h1 {
   align-items: center;
   margin-right: 5%;
   width: 45%;
+  line-height: 150%;
+  color: #752400;
 }
 .text-wrapper {
   display: flex;
