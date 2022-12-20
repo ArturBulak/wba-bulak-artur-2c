@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    width: 100vw;
+    height: 17,5vh;
+    background-color: #cbc1b1;
+}
+
+.logo {
+    padding-left: 11.3vw;
+}
+.navbar {
+    position: relative;
+    left: 31.3%;
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    column-gap: 29px;
+
+}
+.nav-item {
+    font-family: 'lato' , sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    align-items: center;
+}
+.hero-image img {
+    position: relative;
+    width: 100vw;
+}
+.hero- {
+    width: auto;
+    position: relative;
+}
+
+.s1-square {
+    position: absolute;
+    top: 542px;
+    right: 30px;
+    width: 45vw;
+    height: 38.64vh;
+    background-color:  #7C7474;
+    opacity: 30%;
+    
+} 
+
+.s1-heading-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+    height: 13.3vh;
+    position: absolute;
+    top: 521px;
+    right: 30px;
+}
+.s1-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 39.86vw;
+    height: 12.5vh;
+    position: absolute;
+    top: 636px;
+    right: 68.24px;
+
+}
